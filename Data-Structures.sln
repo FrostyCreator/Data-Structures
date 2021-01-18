@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data-Structures", "Data-Structures.csproj", "{98866EDD-F0CD-40F5-B47D-F386A32836B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "Linked Lists\LinkedList\LinkedList.csproj", "{986992CA-B5EB-4680-A7EF-6D012C16EDA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList.Tests", "Linked Lists\LinkedList.Tests\LinkedList.Tests.csproj", "{7F4C2912-8944-42C3-A5C4-187755830207}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98866EDD-F0CD-40F5-B47D-F386A32836B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98866EDD-F0CD-40F5-B47D-F386A32836B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98866EDD-F0CD-40F5-B47D-F386A32836B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98866EDD-F0CD-40F5-B47D-F386A32836B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{986992CA-B5EB-4680-A7EF-6D012C16EDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986992CA-B5EB-4680-A7EF-6D012C16EDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986992CA-B5EB-4680-A7EF-6D012C16EDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986992CA-B5EB-4680-A7EF-6D012C16EDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4C2912-8944-42C3-A5C4-187755830207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4C2912-8944-42C3-A5C4-187755830207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4C2912-8944-42C3-A5C4-187755830207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4C2912-8944-42C3-A5C4-187755830207}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
