@@ -12,6 +12,6 @@ namespace LinkedList.Interfaces
         bool Remove(T value);
         bool Contains(T value);
         ILinkedListNode<T> Find(T value);
-        void Reverse();
+        ILinkedList<T> Reverse();
     }
 }

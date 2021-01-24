@@ -111,29 +111,27 @@ namespace LinkedList.Implementation
             return null;
         }
 
-        public void Reverse()
+        public ILinkedList<T> Reverse()
         {
-            if (IsEmpty)
-            {
-                throw new InvalidOperationException("Linked list is empty");
-            }
-
             var currentNode = First;
-            Stack<ILinkedListNode<T>> stack = new Stack<ILinkedListNode<T>>();
+            T[] items = new T[Count];
 
+            int i = 0;
             while (currentNode != null)
             {
-                stack.Push(currentNode);
+                items[i] = currentNode.Value;
+                i++;
                 currentNode = currentNode.Next;
+            }
+            i--;
+            
+            var reversedList = new LinkedList<T>();
+            for (; i >= 0; i--)
+            {
+                reversedList.Add(items[i]);
             }
 
-            First = stack.Pop();
-            currentNode = First;
-            while (stack.Count > 0)
-            {
-                currentNode.Next = stack.Pop();
-                currentNode = currentNode.Next;
-            }
+            return reversedList;
         }
     }
 }

@@ -47,10 +47,7 @@ namespace LinkedList.Tests
         [Fact]
         public void Contains_EmptyList_ReturnFalse()
         {
-            var linkedList = new LinkedList<int>(0);
-            linkedList.Add(1);
-            linkedList.Add(2);
-            linkedList.Add(3);
+            var linkedList = new LinkedList<int>();
 
             bool actual = linkedList.Contains(5);
             
