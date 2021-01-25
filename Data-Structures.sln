@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoublyLinkedList.Tests", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoublyLinkedList", "Linked Lists\DoublyLinkedList\DoublyLinkedList.csproj", "{FD19A46E-CAC0-4AC2-8F7E-F848FF0CDEBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularLinkedList", "Linked Lists\CircularLinkedList\CircularLinkedList.csproj", "{C13131EB-B8BE-4FFB-ABDF-0A17EBD3E8FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularLinkedList.Tests", "Linked Lists\CircularLinkedList.Tests\CircularLinkedList.Tests.csproj", "{02F05A62-2DEC-45B1-BA83-79A64EE66487}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{FD19A46E-CAC0-4AC2-8F7E-F848FF0CDEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD19A46E-CAC0-4AC2-8F7E-F848FF0CDEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD19A46E-CAC0-4AC2-8F7E-F848FF0CDEBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C13131EB-B8BE-4FFB-ABDF-0A17EBD3E8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C13131EB-B8BE-4FFB-ABDF-0A17EBD3E8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C13131EB-B8BE-4FFB-ABDF-0A17EBD3E8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C13131EB-B8BE-4FFB-ABDF-0A17EBD3E8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F05A62-2DEC-45B1-BA83-79A64EE66487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F05A62-2DEC-45B1-BA83-79A64EE66487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F05A62-2DEC-45B1-BA83-79A64EE66487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F05A62-2DEC-45B1-BA83-79A64EE66487}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
